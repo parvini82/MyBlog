@@ -76,24 +76,17 @@
 .body {
   background-color: #1f2833;
   font-family: 'raleway';
+
+  
+  
+}
+.contact-icon{
+  width: 200px;
+  height: 200px;
+
 }
 
-.contact-list {
-  list-style: none;
-  padding: 0;
 
-  li {
-    margin-bottom: 10px;
-  }
 
-  a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #333;
-  }
 
-  a:hover {
-    color: #007bff; // Change the color on hover to make it interactive.
-  }
-}
+
