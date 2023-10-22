@@ -11,7 +11,7 @@ function showContent(sectionId) {
         item.classList.remove("active");
     });
 
-    // Add the "active" class to the selected navigation item
+   
     document.querySelector(`.nav[data-section="${sectionId}"]`).classList.add("active");
 
 }

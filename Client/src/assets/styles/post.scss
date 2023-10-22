@@ -1,0 +1,29 @@
+.blog-post {
+    background-color: #1f2833;
+    border: 1px w #ddd;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+    img {
+        max-width: 20%; // Adjust the width of the image as per your design
+        height: 40%;
+        float: right;
+    }
+}
+
+.post-title {
+    font-size: 24px;
+    margin: 0;
+    color: #333; // Customize title color
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #777;
+}
+
+.blog-post img {
+    width: 200px;
+    height: 200px;
+}
