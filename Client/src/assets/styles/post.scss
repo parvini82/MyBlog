@@ -1,29 +1,60 @@
 .blog-post {
     background-color: #1f2833;
-    border: 1px w #ddd;
+    border: 2px #ddd;
     padding: 20px;
     margin: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(240, 245, 244, 0.2);
+    box-sizing: border-box;
 
-    img {
-        max-width: 20%; // Adjust the width of the image as per your design
-        height: 40%;
+    .img {
         float: right;
+        overflow: hidden;
+        width: 30%;
+        
+        img{
+            float: right;
+            width: 50%;
+            
+        }
     }
-}
 
-.post-title {
-    font-size: 24px;
-    margin: 0;
-    color: #333; // Customize title color
-}
+    .post-title {
+        font-size: 48px;
+        margin: 0;
+        text-align: left;
+        color: #0c868a; // Customize title color
+    }
+    
 
-.post-meta {
-    font-size: 14px;
-    color: #777;
-}
+    .post-date {
+        font-size: 14px;
+        text-align: left;
+        color: #049117;
+    }
 
-.blog-post img {
-    width: 200px;
-    height: 200px;
+    .post-content {
+        text-align: left;
+        
+        color: #ddd;
+        width: 100%;
+        
+        .post-description{
+            justify-content: center;
+        }
+    }
+    img{
+        float: right;
+        width: 20%;
+        height: 100%;
+    }
+
+    .read-more-link {
+        text-align: center;
+        float: right;
+        padding-top: 20px;
+    }
+
+    .read-more-href {
+        color: #0c868a;
+    }
 }
