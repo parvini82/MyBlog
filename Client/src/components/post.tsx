@@ -20,12 +20,11 @@ function Post(props: PostProps) {
         </a>
         <p className="post-date">Posted on {props.date}</p>
         <div className="post-content">
-        
-        <p className="post-description">{props.description}</p>
+          <p className="post-description">{props.description}</p>
+        </div>
+
       </div>
-        
-      </div>
-      
+
 
     </section>
   );
