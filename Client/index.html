@@ -14,16 +14,31 @@
 </head>
 
 <body class="body">
-  <div >
+  <div class="logo">
+          <img src="src/assets/images/logo-color.png"></img>
+        </div>
+  <div>
+    <div class="navbar" style="justify-content: right;">
+      <a class="nav active" onclick="showContent('#home')" id="#home">Home</a>
+      <a class="nav" onclick="showContent('#contact')" id="#contact">Contact</a>
+      <a class="nav" onclick="showContent('#about')" id="#about">About</a>
+    </div>
+    <div class="top">
+      
+        
+        <div class="about">
+          <img src="src/assets/images/logo2.png" class="logo2"></img>
+          <p class="name">Mohammad hosein Parvini</p>
+          <p class="description">Student K. N. Toosi University of Technology</p>
 
-    <header class="topnav">
-      <img src="src/assets/images/logo-color.png" class="logo"></img>
-      <div class="navbar" style="justify-content: right;">
-        <a class="nav active" onclick="showContent('home')">Home</a>
-        <a class="nav" onclick="showContent('contact')">Contact</a>
-        <a class="nav" onclick="showContent('about')">About</a>
-      </div>
-    </header>
+        </div>
+      
+
+    </div>
+    
+
+
+
 
 
 
@@ -46,11 +61,11 @@
 
         Thank you for visiting, and I hope you find something valuable here. Stay tuned for more exciting content!</p> -->
     </div>
+    <div id="about">hi 
 
-    <div id="about">
-      <h1>About Us</h1>
-      <p>Learn more about our company and team.</p>
     </div>
+  
+
 
     <div id="contact">
 
@@ -89,7 +104,11 @@
 
 
     </div>
+
+
     <div id="root"></div>
+
+
 
 
   </div>
